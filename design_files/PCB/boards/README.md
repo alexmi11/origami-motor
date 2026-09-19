@@ -1,3 +1,5 @@
+Design files live in `/designs`.
+
 To generate a JSON-PCB circuit board
 
 ```
