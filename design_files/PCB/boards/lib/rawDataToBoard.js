@@ -34,7 +34,6 @@ export function rawDataToBoard(rawData, ops = {}) {
     seen.add(key);
 
     drills.push({
-      // one point is a plunge, more is a slot or a routed path
       track: polylineToPath(route.track, false),
       diameter: route.diameter,
       start: route.start,
